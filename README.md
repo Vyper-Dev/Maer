@@ -1,5 +1,5 @@
 # MalLoader
-A Python script designed to run malware nearly undetected (trojan hourse), disguised by a simple survival text game. Detected by 1/65 vendors (DeepInstinct) on VirusTotal with full payload.
+A Python script designed to run malware nearly undetected (trojan horse), disguised by a simple survival text game. Detected by 1/65 vendors (DeepInstinct) on VirusTotal with full payload.
 
 # DISCLAIMER
 *FOR EDUCATIONAL USE ONLY. ONLY USE ON YOUR OWN PERSONAL DEVICES. I AM NOT LIABLE FOR ANY DAMAGES OR ACTIONS CAUSED BY THIS SCRIPT. BY DOWNLOADING AND USING THIS REPOSITORY YOU TAKE FULL RESPONSIBILITY FOR ANY ACTIONS COMMITTED*
