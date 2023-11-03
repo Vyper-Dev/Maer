@@ -11,7 +11,7 @@ A Python script designed to run malware nearly undetected (trojan horse), disgui
 
 -My block encryption program
 
--An example payload (restarts your computer) and blank key file are included to help with understanding the file layout.
+-A blank payload and blank key file are included to help with understanding the file layout.
 
 # Steps
 1. Download this repository
