@@ -1,4 +1,4 @@
-# MalLoader
+# Maer
 A Python script designed to run paylaods nearly undetected (trojan horse), disguised by a simple survival text game. Detected by 1/65 vendors (DeepInstinct) on VirusTotal with full payload.
 
 # DISCLAIMER
