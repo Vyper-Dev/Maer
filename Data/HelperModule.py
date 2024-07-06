@@ -67,41 +67,6 @@ def Decrypt(S1,S2,S3):
             S3[i] = Characters[charpos3]
         except:
             pass
-def GenKey(Name):
-    global Key1
-    global Key2
-    global Key3
-    Key1 = []
-    Key2 = []
-    Key3 = []
-    Characters1 = Characters[:-1]
-    Characters2 = Characters[:-1]
-    Characters3 = Characters[:-1]
-    for i in range(len(Characters1)):
-        Char = random.choice(Characters1)
-        Characters1.remove(Char)
-        Key1.append(Char)
-    for i in range(len(Characters2)):
-        Char = random.choice(Characters2)
-        Characters2.remove(Char)
-        Key2.append(Char)
-    for i in range(len(Characters3)):
-        Char = random.choice(Characters3)
-        Characters3.remove(Char)
-        Key3.append(Char)
-    f = open(Name, "w")
-    for element in Key1:
-        f.write(element)
-    f.write("\n")
-    f = open(Name, "a")
-    for element in Key2:
-        f.write(element)
-    f.write("\n")
-    f = open(Name, "a")
-    for element in Key3:
-        f.write(element)
-    f.close()
-    return Key1, Key2, Key3
 def OpenKey(Name):
     global Key1
     global Key2
